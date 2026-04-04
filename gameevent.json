@@ -1,0 +1,60 @@
+{
+    "gameEvents": [
+        {
+            "gameEventInstanceId": "688972ba-77c0-445b-9fad-ea6134e4b0dc::1775016000",
+            "type": "quest",
+            "startTimeSecs": 1775016000,
+            "endTimeSecs": 1775188800,
+            "recurrence": {
+                "recurrenceType": "daily",
+                "startTimeSecs": 1663819200,
+                "durationSecs": 172800,
+                "recurrenceInterval": 39
+            },
+            "questId": "beb2284b-9525-4bfa-83bd-5ed6e089c97c",
+            "important": true
+        },
+        {
+            "gameEventInstanceId": "511b53a8-67e9-43d0-bba6-d1d718a731b2::1775188800",
+            "type": "quest",
+            "startTimeSecs": 1775188800,
+            "endTimeSecs": 1775361600,
+            "recurrence": {
+                "recurrenceType": "daily",
+                "startTimeSecs": 1663992000,
+                "durationSecs": 172800,
+                "recurrenceInterval": 39
+            },
+            "questId": "0dd37f6b-28ad-4cb7-8e12-2ebbf43fb366",
+            "important": true
+        },
+        {
+            "gameEventInstanceId": "3c6f4f2e-318e-4f8d-9f99-3f75120c5f5f::1775102400",
+            "type": "quest",
+            "startTimeSecs": 1775102400,
+            "endTimeSecs": 1775275200,
+            "recurrence": {
+                "recurrenceType": "daily",
+                "startTimeSecs": 1663905600,
+                "durationSecs": 172800,
+                "recurrenceInterval": 39
+            },
+            "questId": "838e49aa-6139-4938-84d3-e09e1da80ae8",
+            "important": true
+        },
+        {
+            "gameEventInstanceId": "e9149d5c-b6a9-4258-9d15-c363e26b7271::1775016000",
+            "type": "quest",
+            "startTimeSecs": 1775016000,
+            "endTimeSecs": 1775620800,
+            "recurrence": {
+                "recurrenceType": "annually",
+                "startTimeSecs": 1648785600,
+                "durationSecs": 604800,
+                "recurrenceInterval": 1
+            },
+            "questId": "3405ea07-6655-49c0-b149-b0e19f9f1c85",
+            "important": true
+        }
+    ]
+}

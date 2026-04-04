@@ -25,8 +25,14 @@ class MainSession:
 
     def read_character_file(self) -> Dict[str, Any]:
         try:
+            result = None
             with open("./character.json", "r") as f:
-                return json.loads(f.read())
+                result = json.loads(f.read())
+            if "town" not in result:
+                with open("./default_town.json", "r") as f:
+                    default_town = json.loads(f.read())
+                    result["town"] = default_town
+            return result
         except FileNotFoundError:
             return {
                 "character": {}
@@ -67,6 +73,9 @@ class MainSession:
             char_path = None
             if path.startswith("api/game/v1/public/characters/"):
                 char_path = path[67:]
+            # is that lack of s a typo? most use characters but inventories use character.
+            elif path.startswith("api/game/v1/public/character/"):
+                char_path = path[66:]
 
             if path == "api/analytics/v1/public/stats/client" or path == "api/analytics/v1/public/events":
                 return Response("null".encode("utf-8"), {}, 200)
@@ -97,6 +106,9 @@ class MainSession:
                 # should I keep track of amount of requests for this session?
                 # Or maybe in the lifetime of the whole account?
                 return Response(json.dumps({"requestIndex": 0}).encode("utf-8"), {}, 200)
+            elif char_path == "":
+                assert r.command == "GET"
+                return Response(json.dumps({"character": self.read_character_file()["character"]}).encode("utf-8"), {}, 200)
             elif path == "api/game/v1/public/characters":
                 if r.command == "GET":
                     return Response(json.dumps({
@@ -179,6 +191,22 @@ class MainSession:
                     }
                     self.write_character_file(data_to_save)
                     return Response(json.dumps(data_to_save).encode("utf-8"), {}, 200)
+            elif char_path == "data":
+                assert r.command == "POST"
+                character = self.read_character_file()
+                assert r.body is not None
+                new_data_to_set = json.loads(r.body)["data"]
+                if "dialog" in new_data_to_set:
+                    # apparently, the client just send the whole list of flag. Let’s trust it.
+                    if "dialog" not in character["character"]["data"]:
+                        character["character"]["data"]["dialog"] = {}
+                    character["character"]["data"]["dialog"] = new_data_to_set["dialog"]
+                if "new-flags" in new_data_to_set:
+                    if "new-flags" not in character["character"]["data"]:
+                        character["character"]["data"]["new-flags"] = {}
+                    character["character"]["data"]["new-flags"] = new_data_to_set["new-flags"]
+                self.write_character_file(character)
+                return Response(b"null", {}, 200)
             elif char_path == "challenges":
                 data = self.read_character_file()
                 result = {
@@ -201,12 +229,98 @@ class MainSession:
                 return Response(json.dumps({
                     "globalShopOverrides": {}
                 }).encode("utf-8"), {}, 200)
+            elif char_path == "wallets/current":
+                assert r.command == "GET"
+                character = self.read_character_file()
+                result = {}
+                if "wallet" in character:
+                    result = {"wallet": character["wallet"]}
+                return Response(json.dumps(result).encode("utf-8"), {}, 200)
+            elif char_path == "inventories/current":
+                assert r.command == "GET"
+                character = self.read_character_file()
+                return Response(json.dumps({"inventory": character["inventory"]}).encode("utf-8"), {}, 200)
+            elif char_path == "abysses/current":
+                assert r.command == "POST"
+                assert r.body == b"null"
+                return Response(json.dumps({}).encode("utf-8"), {}, 200)
+            elif char_path == "dungeons":
+                assert r.command == "GET"
+                character = self.read_character_file()
+                result = {}
+                if "dungeons" in character:
+                    result = {"dungeons": character["dungeons"]}
+                return Response(json.dumps(result).encode("utf-8"), {}, 200)
+
+            elif char_path == "towns/current":
+                assert r.command == "GET"
+                character = self.read_character_file()
+                result = {}
+                if "town" in character:
+                    result = {"town": character["town"]}
+                return Response(json.dumps(result).encode("utf-8"), {}, 200)
+            elif char_path == "crafts":
+                return Response(json.dumps({}).encode("utf-8"), {}, 200)
+            elif char_path == "gameevents":
+                # I think this is just empty for new account up to a certain point...
+                return Response(json.dumps({}).encode("utf-8"), {}, 200)
+            elif char_path == "quests":
+                #TODO: this will likely break some stuff
+                return Response(json.dumps({
+                    "quests": [],
+                    "dungeonGeneratedDataList": [],
+                    "character": self.read_character_file()["character"],
+                    "jobPools": [],
+                    "gameEventQuestsInWarning": [],
+                    "gameEventQuestsFinished": [],
+                }).encode("utf-8"), {}, 200)
+            elif char_path == "globalshops/current":
+                return Response(json.dumps({}).encode("utf-8"), {}, 200)
+            elif char_path == "globalgifts":
+                return Response(json.dumps({}).encode("utf-8"), {}, 200)
+            elif path == "api/game/v1/public/catalogoverrides/iap":
+                return Response(json.dumps({"fulfillmentOverrides": {}}).encode("utf-8"), {}, 200)
+            elif char_path == "towns/current/rewards/current":
+                return Response(json.dumps({
+                    "dailyRewardStatus": {
+                        "rewardUid": "eefb9db4-0632-49b9-ae35-1da398ca0003",
+                        "until": int(time.time()) + 3600 * 24,
+                        "dailyReward": {
+                            "stackableItems": {
+                                "42d91529-c88b-4c5b-815b-b55508b4e7ef": 2
+                            }
+                        },
+                        "collected": False
+                    }
+                }).encode("utf-8"), {}, 200)
+            elif char_path == "announcements":
+                return Response(json.dumps({
+                    "announcements": []
+                }).encode("utf-8"), {}, 200)
         elif domain.endswith(".api.swrve.com"):
             # just ignore them. Some telemetry stuff. Does sometimes return error callback thought.
             return Response(bytes([]), {}, 200)
         elif domain.endswith(".content.swrve.com"):
             # idem
             return Response("{}".encode("utf-8"), {}, 200)
-
-
+        elif domain.endswith(".identity.swrve.com"):
+            return Response(json.dumps({
+                "status": "new_external_id",
+                "swrve_id": "a7ef5402-007e-4027-b9ef-efdfe7dddc4c"
+            }).encode("utf-8"), {}, 200)
+        elif domain == "announcements.blades.bgs.services" and path == "status/status.json":
+            return Response(json.dumps({
+                "ttl":300,
+                "systems":[
+                    {"name":"authentication","status":"online"},
+                    {"name":"game","status":"online"},
+                    {"name":"pvp","status":"online"},
+                    {"name":"guilds","status":"online"},
+                    {"name":"events","status":"online"},
+                    {"name":"social","status":"online"},
+                    {"name":"quests","status":"online"},
+                    {"name":"challenges","status":"online"},
+                    {"name":"shops","status":"online"}
+                ]
+            }).encode("utf-8"), {}, 200)
         return Response(bytes(0), {}, 401)
