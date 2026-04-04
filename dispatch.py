@@ -266,14 +266,12 @@ class MainSession:
                 return Response(json.dumps({}).encode("utf-8"), {}, 200)
             elif char_path == "quests":
                 #TODO: this will likely break some stuff
-                return Response(json.dumps({
-                    "quests": [],
-                    "dungeonGeneratedDataList": [],
-                    "character": self.read_character_file()["character"],
-                    "jobPools": [],
-                    "gameEventQuestsInWarning": [],
-                    "gameEventQuestsFinished": [],
-                }).encode("utf-8"), {}, 200)
+                result = None
+                with open("./initial_quests.json", "r") as f:
+                    initial_quests = json.loads(f.read())
+                    result = initial_quests
+                result["character"] = self.read_character_file()["character"]
+                return Response(json.dumps(result).encode("utf-8"), {}, 200)
             elif char_path == "globalshops/current":
                 return Response(json.dumps({}).encode("utf-8"), {}, 200)
             elif char_path == "globalgifts":

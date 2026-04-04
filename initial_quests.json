@@ -1,0 +1,2825 @@
+{
+  "quests": [],
+  "dungeonGeneratedDataList": [
+    {
+      "questId": "5dd30a6c-08f0-4ec9-b86e-c633571c6512",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "55e82826-2d68-469c-8870-753665ca62cd": 7
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "42d91529-c88b-4c5b-815b-b55508b4e7ef": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "27c8d9d9-5176-431f-ab9d-a0eff0b4b892",
+                      "itemTemplateId": "4a9fd901-aaf8-40bd-941e-971febf4daf8",
+                      "temperingLevel": 3,
+                      "durability": 121.9
+                    }
+                  ],
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 2,
+                    "b94c2028-dba7-44bd-b6f9-6f85ab0195b6": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1,
+                    "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 2,
+                    "8ac9076c-cba9-4cf4-a8a5-d2303aab22b0": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "61d5e5c7-78b8-4fc3-ba6a-5b7c2a15866d": 1,
+                    "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 1,
+                    "7116a2a8-ac2d-4cd9-8b7c-b80c397d3f50": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 2,
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 5
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 5,
+              "givenXP": 19,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4,
+                    "470c8f58-a8dd-4c07-8c92-843b785e1139": 1
+                  }
+                },
+                "9217b4cd-a698-4d19-ab94-889b8364b95c": {
+                  "items": [
+                    {
+                      "id": "d955dcc6-8eeb-4669-a245-e9efee41aeaa",
+                      "itemTemplateId": "295cbc17-a845-4788-8950-3f841b5fc57b",
+                      "temperingLevel": 2,
+                      "durability": 110.725
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "df0f7a93-5f9d-4d36-b9f9-c087da9858de": [
+          [
+            {
+              "enemyLevel": 7,
+              "givenXP": 25,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "9217b4cd-a698-4d19-ab94-889b8364b95c": {
+                  "items": [
+                    {
+                      "id": "94bc0c40-5913-4ad2-92d3-2240e52c86d9",
+                      "itemTemplateId": "bab5c847-7b2f-4b79-9b93-d96b2fa10b80",
+                      "temperingLevel": 0,
+                      "durability": 100.0,
+                      "properties": {
+                        "ENCHANTING": [
+                          {
+                            "id": "5297713f-c60e-42fd-ade0-500daf0d632e",
+                            "tier": 1
+                          },
+                          {
+                            "id": "64a15ab5-f7be-42be-ad25-4a136a4ec62a",
+                            "tier": 1
+                          },
+                          {
+                            "id": "d12b80eb-1c2e-42a3-b939-b92e308f1b22",
+                            "tier": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 2
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "51f7612f-a797-4417-8a92-493b0aae7f45": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "05b4dd6b-796f-4088-a772-0e33ea3db976": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 37
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "55e82826-2d68-469c-8870-753665ca62cd": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "10c54e43-a2a1-4833-9491-4c19149f43b5": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ],
+        "f1753fab-bd87-48a7-a2b4-79752b059c1c": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "f1c5c03c-5297-48fb-a9d2-5f32bffb467c": 1
+                }
+              },
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "05b4dd6b-796f-4088-a772-0e33ea3db976": 1,
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 10
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 97
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ],
+        "d00e3919-826d-4476-9f36-4cf5a581ab37": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "6cb97b90-6ab2-4ddc-bc81-4f7db6db3e7f": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 14,
+                  "9d9732a5-cd1c-4a93-8755-0bf92ee65d64": 1,
+                  "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1,
+                  "b81952e0-c3c8-4a5c-92c0-8215d3eb71af": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 256,
+                  "470c8f58-a8dd-4c07-8c92-843b785e1139": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 1
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    },
+    {
+      "questId": "622e9d12-e5f1-4336-bde6-e006409da34f",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "323a6eed-82bb-41e7-9433-61afb7e3f231",
+                      "itemTemplateId": "fb4cd249-fb01-4604-8cf3-5bc3e4c9a4d8",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 5
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {
+                  "stackableItems": {
+                    "2ce48871-b5c7-4deb-93b1-8e444098f753": 1
+                  }
+                },
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "b94c2028-dba7-44bd-b6f9-6f85ab0195b6": 1,
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {
+                  "stackableItems": {
+                    "d5ccf370-0795-4554-9dab-68ccbb97473d": 1
+                  }
+                },
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "55e82826-2d68-469c-8870-753665ca62cd": 7,
+                    "8ac9076c-cba9-4cf4-a8a5-d2303aab22b0": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 3
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 5,
+              "givenXP": 19,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "6f21f0b9-06f8-461e-8f5e-f9a230641c5f",
+                      "itemTemplateId": "295cbc17-a845-4788-8950-3f841b5fc57b",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "stackableItems": {
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "9217b4cd-a698-4d19-ab94-889b8364b95c": {
+                  "items": [
+                    {
+                      "id": "3156e6d2-eb74-478c-8cc4-e370d9372838",
+                      "itemTemplateId": "6fe63664-4252-4269-9f51-8546b5f138da",
+                      "temperingLevel": 1,
+                      "durability": 77.64,
+                      "properties": {
+                        "ENCHANTING": [
+                          {
+                            "id": "c40ed851-8777-4d09-b169-0223dae8f67d",
+                            "tier": 1
+                          },
+                          {
+                            "id": "fea58213-6a41-4500-9f09-cd9c745bcc1e",
+                            "tier": 1
+                          },
+                          {
+                            "id": "1674a05b-355a-4c01-9994-7a28e2654d4c",
+                            "tier": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 43
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 38
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "05b4dd6b-796f-4088-a772-0e33ea3db976": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "574ab81c-1ba1-4127-a4aa-e9cbba5767ad": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 41
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 41
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ],
+        "27f1e408-8cfd-4ded-b177-05edc3ae296c": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 5,
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 5
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 107
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 1
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    },
+    {
+      "questId": "67fc9495-667a-43c9-b47b-6b643d053953",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "55e82826-2d68-469c-8870-753665ca62cd": 6
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "deef5948-b6fd-4461-80f3-45dbdcfa43e3",
+                      "itemTemplateId": "d8e5cc8b-eebe-4ab6-bc0c-4360bcbcb4f5",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 5,
+              "givenXP": 19,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "9217b4cd-a698-4d19-ab94-889b8364b95c": {
+                  "items": [
+                    {
+                      "id": "86190cc5-492d-4bff-b594-4253fde9c603",
+                      "itemTemplateId": "11565fed-66a0-40a4-ac8d-65c7161c3283",
+                      "temperingLevel": 3,
+                      "durability": 60.95
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 40
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "f1c5c03c-5297-48fb-a9d2-5f32bffb467c": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ],
+        "27f1e408-8cfd-4ded-b177-05edc3ae296c": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 13
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 117
+                }
+              }
+            }
+          }
+        ],
+        "f1753fab-bd87-48a7-a2b4-79752b059c1c": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 5,
+                  "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 108
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 3,
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 37
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "10c54e43-a2a1-4833-9491-4c19149f43b5": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 2
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    },
+    {
+      "questId": "8264383b-e646-48c4-92b6-578f36088e0a",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1,
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 4,
+                    "9687d83c-aa7b-4cf3-a69f-0bba8204fa61": 2,
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {
+                  "stackableItems": {
+                    "8ac9076c-cba9-4cf4-a8a5-d2303aab22b0": 1
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 4
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 1,
+              "givenXP": 11,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {
+                  "stackableItems": {
+                    "42a22694-40eb-4c34-a267-c9aef2d96f56": 1
+                  }
+                },
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "55e82826-2d68-469c-8870-753665ca62cd": 6,
+                    "05b4dd6b-796f-4088-a772-0e33ea3db976": 1,
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1,
+                    "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 9,
+              "givenXP": 31,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "f91463bf-febd-403a-92ff-e11e9298e68a": {
+                  "items": [
+                    {
+                      "id": "e1b32bf4-05a4-4950-840d-80388662b788",
+                      "itemTemplateId": "c6f7fab4-eadc-4e8c-bf7f-e0ea095a3acf",
+                      "temperingLevel": 1,
+                      "durability": 103.525,
+                      "properties": {
+                        "ENCHANTING": [
+                          {
+                            "id": "b64fa9d4-4f13-4bb4-9129-16df08e84757",
+                            "tier": 1
+                          },
+                          {
+                            "id": "8f372d6d-2620-42ab-809b-edb4d5d1e528",
+                            "tier": 1
+                          },
+                          {
+                            "id": "1674a05b-355a-4c01-9994-7a28e2654d4c",
+                            "tier": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 10
+                  }
+                },
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "55e82826-2d68-469c-8870-753665ca62cd": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 2
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "9687d83c-aa7b-4cf3-a69f-0bba8204fa61": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 40
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 43
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "7116a2a8-ac2d-4cd9-8b7c-b80c397d3f50": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 44
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          }
+        ],
+        "b7c5dbab-14b9-4157-a3f3-b1d34e676864": [
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "d7be8039-8195-40d3-9963-7f91b61d5237": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 3
+                }
+              }
+            }
+          }
+        ],
+        "d00e3919-826d-4476-9f36-4cf5a581ab37": [
+          {
+            "lootTableLoot": {
+              "6cb97b90-6ab2-4ddc-bc81-4f7db6db3e7f": {
+                "stackableItems": {
+                  "89ece62c-9ff6-470a-a152-d45ef4e0c222": 2,
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1,
+                  "b81952e0-c3c8-4a5c-92c0-8215d3eb71af": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 283,
+                  "470c8f58-a8dd-4c07-8c92-843b785e1139": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "b94c2028-dba7-44bd-b6f9-6f85ab0195b6": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 1
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    },
+    {
+      "questId": "e09b7471-9282-441d-8963-4e75c3ec7863",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1,
+                    "42d91529-c88b-4c5b-815b-b55508b4e7ef": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "aa2f0378-be66-4775-ad0f-7c4fbd8d45c7",
+                      "itemTemplateId": "3d1a4db9-6a16-4c56-af55-7a612ceb2dc3",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "stackableItems": {
+                    "05b4dd6b-796f-4088-a772-0e33ea3db976": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1,
+                    "7116a2a8-ac2d-4cd9-8b7c-b80c397d3f50": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 2,
+                    "55e82826-2d68-469c-8870-753665ca62cd": 6
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "05b4dd6b-796f-4088-a772-0e33ea3db976": 1,
+                    "38d32048-ce01-4390-a4f0-cdb94ef3ce72": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 6,
+              "givenXP": 22,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 12,
+              "givenXP": 41,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 4,
+                    "51f7612f-a797-4417-8a92-493b0aae7f45": 3
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "c97b64de-bd8e-41b8-8afc-dcf6dbed6290": {
+                  "items": [
+                    {
+                      "id": "5b557035-fdf5-4c9b-bdc7-be77dd6e1acf",
+                      "itemTemplateId": "c6f7fab4-eadc-4e8c-bf7f-e0ea095a3acf",
+                      "temperingLevel": 1,
+                      "durability": 103.525,
+                      "properties": {
+                        "ENCHANTING": [
+                          {
+                            "id": "b64fa9d4-4f13-4bb4-9129-16df08e84757",
+                            "tier": 1
+                          },
+                          {
+                            "id": "9701ded5-e1d1-4436-8b14-d5d726ff4434",
+                            "tier": 1
+                          },
+                          {
+                            "id": "64a15ab5-f7be-42be-ad25-4a136a4ec62a",
+                            "tier": 1
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 8
+                  }
+                }
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "9687d83c-aa7b-4cf3-a69f-0bba8204fa61": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 45
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "9687d83c-aa7b-4cf3-a69f-0bba8204fa61": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 52
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "51f7612f-a797-4417-8a92-493b0aae7f45": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 2
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "51f7612f-a797-4417-8a92-493b0aae7f45": 1
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {
+                "stackableItems": {
+                  "8b7d0044-3a38-4ee0-af45-d2892b0f508d": 2
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {},
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          }
+        ],
+        "27f1e408-8cfd-4ded-b177-05edc3ae296c": [
+          {
+            "lootTableLoot": {
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 12
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 136
+                }
+              }
+            }
+          }
+        ],
+        "f1753fab-bd87-48a7-a2b4-79752b059c1c": [
+          {
+            "lootTableLoot": {
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 5,
+                  "05b4dd6b-796f-4088-a772-0e33ea3db976": 1
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 45
+                }
+              },
+              "cf26d2d8-6aa9-4616-8378-16036b85c1ff": {}
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 1
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    },
+    {
+      "questId": "eb1d24d6-a05a-4618-bded-ba8e58a8d026",
+      "enemyGeneratedData": {
+        "b2a7471e-7a44-47a6-b483-503a9e5cae3d": [
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "6bd960ca-9af3-4b33-9ec0-5c06d50ad43e": 1,
+                    "42d91529-c88b-4c5b-815b-b55508b4e7ef": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {
+                  "stackableItems": {
+                    "0e59a8f9-8a47-48a0-afac-8c3053cc778c": 1
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "e7193116-d761-479b-8a20-5633737977f5": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6,
+                    "470c8f58-a8dd-4c07-8c92-843b785e1139": 1
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "a341d9ac-5cb9-4a1b-967d-0d53f5e5127e",
+                      "itemTemplateId": "c02f3a45-52b3-49db-aeac-03da41e41158",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 5,
+                    "55e82826-2d68-469c-8870-753665ca62cd": 4
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {
+                  "stackableItems": {
+                    "8ac9076c-cba9-4cf4-a8a5-d2303aab22b0": 1
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "2a732e05-7a02-4687-bf1d-901899db8458",
+                      "itemTemplateId": "295cbc17-a845-4788-8950-3f841b5fc57b",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {}
+              }
+            }
+          ]
+        ],
+        "c9ad5aae-200b-48fd-860e-ad45e0349ef0": [
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fbf96b07-e9aa-4157-8761-10179fa05138": 4,
+                    "b94c2028-dba7-44bd-b6f9-6f85ab0195b6": 1,
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {
+                  "stackableItems": {
+                    "f1c5c03c-5297-48fb-a9d2-5f32bffb467c": 1
+                  }
+                }
+              }
+            }
+          ],
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "6a7e4dc0-c5ad-407a-b07d-7956030bba0a",
+                      "itemTemplateId": "c6f7fab4-eadc-4e8c-bf7f-e0ea095a3acf",
+                      "temperingLevel": 6,
+                      "durability": 180.0
+                    }
+                  ],
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "b63e2dcd-4093-4a70-b728-ad30fda6cee1": {}
+              }
+            }
+          ]
+        ],
+        "132fc1b2-8480-4f45-a10d-b2c708db85a7": [
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "d7b105e7-7a76-4b92-b9ba-21a5bae4133e": [
+          [
+            {
+              "enemyLevel": 3,
+              "givenXP": 15,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "dec6ae9d-8acd-407b-9da6-3083be8353a9": {},
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "items": [
+                    {
+                      "id": "6256244d-c9b7-4604-a618-47e34f160f8b",
+                      "itemTemplateId": "d8e5cc8b-eebe-4ab6-bc0c-4360bcbcb4f5",
+                      "temperingLevel": 0,
+                      "durability": 100.0
+                    }
+                  ],
+                  "stackableItems": {
+                    "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 6
+                  }
+                }
+              }
+            }
+          ]
+        ],
+        "690d51c4-46c3-4546-bf82-e267289aca02": [
+          [
+            {
+              "enemyLevel": 7,
+              "givenXP": 25,
+              "spawnGroupLoot": {},
+              "lootTableLoot": {
+                "871c2e9b-7e7a-4564-a022-e435dfb8a436": {
+                  "stackableItems": {
+                    "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 2
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                },
+                "d86a27ee-6d34-4c97-bcf9-fbd87673a4a1": {},
+                "9217b4cd-a698-4d19-ab94-889b8364b95c": {
+                  "stackableItems": {
+                    "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                  },
+                  "currencies": {
+                    "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 4
+                  }
+                }
+              }
+            }
+          ]
+        ]
+      },
+      "itemGeneratedData": {
+        "49adb60a-f5b2-4668-b96d-d69602a326cc": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "55e82826-2d68-469c-8870-753665ca62cd": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "07f380dd-f123-4ef7-9b12-8b9fdb03c3e1": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 45
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 2
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 43
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "55e82826-2d68-469c-8870-753665ca62cd": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 45
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {
+                "stackableItems": {
+                  "f1c5c03c-5297-48fb-a9d2-5f32bffb467c": 1
+                }
+              }
+            }
+          },
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "stackableItems": {
+                  "55e82826-2d68-469c-8870-753665ca62cd": 1
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ],
+        "27f1e408-8cfd-4ded-b177-05edc3ae296c": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "49173c2c-e34c-4664-b2cd-d1bae46c39fa": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 7,
+                  "89ece62c-9ff6-470a-a152-d45ef4e0c222": 1
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 124
+                }
+              }
+            }
+          }
+        ],
+        "f85079bc-4873-4773-b8fd-d78bf1a837c1": [
+          {
+            "lootTableLoot": {
+              "08736750-828c-4631-b99c-d7d490903233": {},
+              "6cb97b90-6ab2-4ddc-bc81-4f7db6db3e7f": {
+                "stackableItems": {
+                  "e7193116-d761-479b-8a20-5633737977f5": 29,
+                  "fd67bbc6-20f4-44a3-9614-28265ebb8c67": 31
+                },
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 280,
+                  "470c8f58-a8dd-4c07-8c92-843b785e1139": 1
+                }
+              }
+            }
+          }
+        ],
+        "da153b3a-8a61-460c-9384-9e12ba8f50e3": [
+          {
+            "lootTableLoot": {
+              "7ee92f4b-18e7-4d15-91c6-ed0436180b81": {
+                "currencies": {
+                  "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2": 43
+                }
+              },
+              "08736750-828c-4631-b99c-d7d490903233": {}
+            }
+          }
+        ]
+      },
+      "chestGeneratedData": {
+        "20640508-6ef7-466a-98ea-d79221356d97": [
+          {
+            "tier": 2
+          }
+        ],
+        "5adb41cc-d48e-4505-a62b-ac092e95bcf7": [
+          {
+            "tier": 1
+          }
+        ]
+      },
+      "algorithmVersion": 1,
+      "version": 1
+    }
+  ],
+  "jobs": [
+    {
+      "questId": "5dd30a6c-08f0-4ec9-b86e-c633571c6512",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "c1ac35b0-4bda-4741-8115-0d3345d63ce6": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "51cdee5a-82d9-46bd-9655-64ae0294c310": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 1,
+      "seed": -402904998,
+      "jobPoolId": "4956c6ab-1832-4edd-8bee-561b79f83ee2",
+      "jobSetup": {
+        "jobType": 3,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "6c9fe3b7-2557-408a-b52a-1842680fed3f",
+        "primaryEnemyFamilyId": "de4686d9-f748-40f7-a8d3-7baadb46a695",
+        "secondaryEnemyFamilyId": "de4686d9-f748-40f7-a8d3-7baadb46a695",
+        "bossEnemyFamilyId": "521bb612-587d-4a90-adee-904a48d89c33",
+        "primaryEnemyCount": 5,
+        "secondaryEnemyCount": 4,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 4,
+        "secretBossLevelDelta": 6,
+        "secretRoom": true,
+        "secretBossEnemyFamilyId": "521bb612-587d-4a90-adee-904a48d89c33",
+        "rewardGemCount": 0,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 250,
+        "rewardXp": 50,
+        "rescueNpcCount": 2,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Rescue.002",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Dungeon.010"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Rescue",
+          "dynamicElements": [
+            {
+              "type": "INTEGER",
+              "intValue": 2
+            }
+          ]
+        }
+      },
+      "completed": false
+    },
+    {
+      "questId": "622e9d12-e5f1-4336-bde6-e006409da34f",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "c1ac35b0-4bda-4741-8115-0d3345d63ce6": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "51cdee5a-82d9-46bd-9655-64ae0294c310": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 1,
+      "seed": -1004982915,
+      "jobPoolId": "4956c6ab-1832-4edd-8bee-561b79f83ee2",
+      "jobSetup": {
+        "jobType": 3,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "4d3153a0-cfc5-405c-b065-92547ee9fbbc",
+        "primaryEnemyFamilyId": "de8e06be-5403-4fc1-b912-1a5cd9d608a6",
+        "secondaryEnemyFamilyId": "de8e06be-5403-4fc1-b912-1a5cd9d608a6",
+        "bossEnemyFamilyId": "4c60bb97-3918-485a-822e-1017d2401dd2",
+        "primaryEnemyCount": 6,
+        "secondaryEnemyCount": 4,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 4,
+        "secretRoom": true,
+        "rewardGemCount": 0,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 250,
+        "rewardXp": 50,
+        "rescueNpcCount": 2,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Rescue.001",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Dungeon.007"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Rescue",
+          "dynamicElements": [
+            {
+              "type": "INTEGER",
+              "intValue": 2
+            }
+          ]
+        }
+      },
+      "completed": false
+    },
+    {
+      "questId": "67fc9495-667a-43c9-b47b-6b643d053953",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "c1ac35b0-4bda-4741-8115-0d3345d63ce6": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "51cdee5a-82d9-46bd-9655-64ae0294c310": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 1,
+      "seed": 1249665613,
+      "jobPoolId": "4956c6ab-1832-4edd-8bee-561b79f83ee2",
+      "jobSetup": {
+        "jobType": 3,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "4d3153a0-cfc5-405c-b065-92547ee9fbbc",
+        "primaryEnemyFamilyId": "8c75bd1f-95a3-47d4-a28c-fdb1fc0de228",
+        "secondaryEnemyFamilyId": "9137d218-6f05-4e8f-a5e5-1c63c61c95ca",
+        "bossEnemyFamilyId": "9137d218-6f05-4e8f-a5e5-1c63c61c95ca",
+        "primaryEnemyCount": 3,
+        "secondaryEnemyCount": 2,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 4,
+        "secretRoom": false,
+        "rewardGemCount": 0,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 250,
+        "rewardXp": 50,
+        "rescueNpcCount": 2,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Rescue.003",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Dungeon.004"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Rescue",
+          "dynamicElements": [
+            {
+              "type": "INTEGER",
+              "intValue": 2
+            }
+          ]
+        }
+      },
+      "completed": false
+    },
+    {
+      "questId": "eb1d24d6-a05a-4618-bded-ba8e58a8d026",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "fe67a8c1-b107-44de-8e6a-c76e259fd42d": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "8b425eba-67ff-4d38-ba3b-ffa2e8493954": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 3,
+      "seed": 771080066,
+      "jobPoolId": "4956c6ab-1832-4edd-8bee-561b79f83ee2",
+      "jobSetup": {
+        "jobType": 0,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "6c9fe3b7-2557-408a-b52a-1842680fed3f",
+        "primaryEnemyFamilyId": "8c75bd1f-95a3-47d4-a28c-fdb1fc0de228",
+        "secondaryEnemyFamilyId": "9137d218-6f05-4e8f-a5e5-1c63c61c95ca",
+        "bossEnemyFamilyId": "8c75bd1f-95a3-47d4-a28c-fdb1fc0de228",
+        "primaryEnemyCount": 6,
+        "secondaryEnemyCount": 4,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 4,
+        "secretRoom": false,
+        "rewardGemCount": 0,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 280,
+        "rewardXp": 70,
+        "defeatEnemyCount": 6,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Defeat.005",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "Enemy.Name.Goblin"
+            },
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "EnemyGroup.Name.Goblins"
+            },
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Dungeon.010"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Defeat",
+          "dynamicElements": [
+            {
+              "type": "INTEGER",
+              "intValue": 6
+            },
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "Enemy.Name.Goblin.Plural"
+            }
+          ]
+        }
+      },
+      "completed": false
+    },
+    {
+      "questId": "8264383b-e646-48c4-92b6-578f36088e0a",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "0e54c204-300d-40c1-b9e1-674380dfa330": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "bdb8cc31-d9e1-409c-9a57-0014af59d430": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 1,
+      "seed": 334825825,
+      "jobPoolId": "361da91e-6860-4c31-a447-4010cbaad1dd",
+      "jobSetup": {
+        "jobType": 4,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "79757d9d-8a26-4a19-bd2e-49ba8577a007",
+        "primaryEnemyFamilyId": "8c75bd1f-95a3-47d4-a28c-fdb1fc0de228",
+        "secondaryEnemyFamilyId": "9137d218-6f05-4e8f-a5e5-1c63c61c95ca",
+        "bossEnemyFamilyId": "8c75bd1f-95a3-47d4-a28c-fdb1fc0de228",
+        "primaryEnemyCount": 3,
+        "secondaryEnemyCount": 2,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 8,
+        "secretRoom": true,
+        "rewardGemCount": 12,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 0,
+        "rewardXp": 50,
+        "gatherItemId": "d145895e-e222-4cb0-be8a-e297b628173c",
+        "gatherItemCount": 6,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Gather.005",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "Item.DecorationResource.Dye"
+            },
+            {
+              "type": "INTEGER",
+              "intValue": 6
+            },
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Forest.011"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Gather",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "Item.DecorationResource.Dye"
+            },
+            {
+              "type": "INTEGER",
+              "intValue": 6
+            },
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Forest.011"
+            }
+          ]
+        }
+      },
+      "completed": false
+    },
+    {
+      "questId": "e09b7471-9282-441d-8963-4e75c3ec7863",
+      "version": 0,
+      "type": "JOB",
+      "objectiveStatuses": {
+        "33af0174-0c6e-4907-a4c6-77fa9caff640": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        },
+        "919c2ad0-0b07-4fd2-a690-8d36be2e311b": {
+          "status": "Active",
+          "progress": 0.0,
+          "completed": false
+        }
+      },
+      "difficultyLevel": 6,
+      "seed": 1695655726,
+      "jobPoolId": "8501a030-5009-4c73-a864-69c3d7fe6ae5",
+      "jobSetup": {
+        "jobType": 1,
+        "jobCreatorVersion": 0,
+        "algorithmVersion": 3,
+        "dungeonTemplateId": "79757d9d-8a26-4a19-bd2e-49ba8577a007",
+        "primaryEnemyFamilyId": "1696d9c0-900f-4829-ae3f-f0441d92a37c",
+        "secondaryEnemyFamilyId": "de4686d9-f748-40f7-a8d3-7baadb46a695",
+        "bossEnemyFamilyId": "3fa0aa97-7a45-4c96-8b62-53e08691f746",
+        "primaryEnemyCount": 5,
+        "secondaryEnemyCount": 3,
+        "secondaryEnemyCountPerSpawnerMin": 1,
+        "secondaryEnemyCountPerSpawnerMax": 1,
+        "enemyBaseLevelOffset": 0,
+        "bossLevelDelta": 6,
+        "secretRoom": true,
+        "rewardGemCount": 4,
+        "rewardItemId": "f8d27767-a85e-4fd6-a5bb-bf8a13d0daa2",
+        "rewardItemCount": 0,
+        "rewardXp": 106,
+        "initialEPL": 1,
+        "questName": {
+          "key": "UI.Jobs.Names.Explore.002",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "UI.Jobs.Location.Name.Forest.001"
+            }
+          ]
+        },
+        "questDescription": {
+          "key": "UI.Jobs.Description.Explore",
+          "dynamicElements": [
+            {
+              "type": "LOCALIZATION_ID",
+              "localizationValue": "Kit_Forest_Name"
+            }
+          ]
+        }
+      },
+      "completed": false
+    }
+  ],
+  "jobPools": [
+    {
+      "id": "4956c6ab-1832-4edd-8bee-561b79f83ee2",
+      "endTime": 1775365200,
+      "nextStartTime": 1775365200
+    },
+    {
+      "id": "717b3cf5-21d8-4f0c-a7a9-603fe37b8766",
+      "endTime": 1775365200,
+      "nextStartTime": 1775365200
+    },
+    {
+      "id": "361da91e-6860-4c31-a447-4010cbaad1dd",
+      "endTime": 1775451600,
+      "nextStartTime": 1775451600
+    },
+    {
+      "id": "9d94baeb-96d4-49e9-bdf6-9f939be836d3",
+      "endTime": 0,
+      "nextStartTime": 1775365200
+    },
+    {
+      "id": "c5efa81d-18d9-47f3-a0ac-e108c0a50605",
+      "endTime": 0,
+      "nextStartTime": 1775451600
+    },
+    {
+      "id": "6b2a5baa-f64f-4cfe-8b03-fe7d632ea2f1",
+      "endTime": 0,
+      "nextStartTime": 1775538000
+    },
+    {
+      "id": "9fcbb01c-13bf-4cd9-916f-25d5faf5314e",
+      "endTime": 0,
+      "nextStartTime": 1775624400
+    },
+    {
+      "id": "df666a07-3539-426a-916e-ccdba580cb1d",
+      "endTime": 0,
+      "nextStartTime": 1775710800
+    },
+    {
+      "id": "a4e76931-02bf-4bfb-a472-286e968a03e1",
+      "endTime": 0,
+      "nextStartTime": 1775797200
+    },
+    {
+      "id": "8501a030-5009-4c73-a864-69c3d7fe6ae5",
+      "endTime": 1775365200,
+      "nextStartTime": 1775883600
+    }
+  ],
+  "gameEventQuestsInWarning": [],
+  "gameEventQuestsFinished": []
+}
