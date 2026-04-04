@@ -1,9 +1,9 @@
 from pathlib import Path
 from typing import Dict, List
-from typing import Optional
 import os
 import json
 import yaml
+from utils.resolve_refs import resolve_refs
 
 OUT_PATH = "./parsed.json"
 SOURCE_PATH = "/home/marius/blades/decompunityapk/ExportedProject"
@@ -56,6 +56,7 @@ def find_all_case_insensitive(
         raise FileNotFoundError(f"No file matching {rel_path!r} found under {root!r}")
     return matches[0]
 
+
 class UnityAssetMeta:
     def __init__(self, meta, asset_path):
         self.guid = meta["guid"]
@@ -94,19 +95,37 @@ if __name__ == "__main__":
     print("loading assets")
     assets = UnityAssets(SOURCE_PATH)
     to_export = {}
+
     print("loading quest data id mapping")
     quest_definition_uuid_to_guid = {}
     with open(assets.guid_to_info[QUESTDATA_GUID].path, "r") as f_leveldata:
         quest_data = yaml.safe_load(f_leveldata.read())
         for entry in quest_data["MonoBehaviour"]["_keyQuestList"]:
             quest_definition_uuid_to_guid[entry["Key"]] = entry["QuestValue"]["guid"]
+
     print("loading quest definition data themself")
     quest_definition_by_uuid = {}
     for quest_uuid, quest_guid in quest_definition_uuid_to_guid.items():
         with open(assets.guid_to_info[quest_guid].path, "r") as f_leveldata:
             quest_definition_data_container = yaml.safe_load(f_leveldata.read())
-        quest_definition_data = json.loads(quest_definition_data_container["MonoBehaviour"]["_serializedJsonString"])
-        quest_definition_by_uuid[quest_uuid] = quest_definition_data
+        quest_definition_data = resolve_refs(json.loads(quest_definition_data_container["MonoBehaviour"]["_serializedJsonString"]))
+        quest_dungeon_info = None
+        if "_dungeonQuest" in quest_definition_data:
+            quest_objectives = {}
+            for objective in quest_definition_data["_dungeonQuest"]["_objectives"]:
+                quest_objectives[objective["_uid"]["_id"]] = {
+                    "description": objective["Description"]["_key"],
+                    "quota": objective["_quota"]
+                }
+            quest_dungeon_info = {
+                "objectives" : quest_objectives,
+                "version": quest_definition_data["_dungeonQuest"]["_questVersion"],
+            }
+        quest_definition_by_uuid[quest_uuid] = {
+            "dungeon_info": quest_dungeon_info,
+            #"raw_data": quest_definition_data
+        }
+
     print("loading dungeon settings")
     dungeon_settings_by_uuid = {}
     with open(os.path.join(SOURCE_PATH, LEVELDATA_PATH), "r") as f_leveldata:
@@ -117,13 +136,33 @@ if __name__ == "__main__":
             level_path = level_meta["Path"]
             with open(find_all_case_insensitive(SOURCE_PATH, level_path), "r") as f_thislevel:
                 raw_level_data = yaml.safe_load(f_thislevel.read())
+                chest_spawn_info = {}
+                for chest in raw_level_data["MonoBehaviour"]["_settings"]["_spawnSettings"]["_spawnGroupsChest"]:
+                    chest_spawn_info[chest["_uid"]["_id"]] = {}
+                item_spawn_info = {}
+                for item in raw_level_data["MonoBehaviour"]["_settings"]["_spawnSettings"]["_spawnGroupsItem"]:
+                    item_spawn_info[item["_uid"]["_id"]] = {
+                        "name": item["_name"]
+                    }
+                enemy_spawn_info = {}
+                for enemy in raw_level_data["MonoBehaviour"]["_settings"]["_spawnSettings"]["_spawnGroupsEnemy"]:
+                    enemy_spawn_info[enemy["_uid"]["_id"]] = {
+                        "quantity": enemy["_quantity"]
+                    }
+
                 dungeon_settings_by_uuid[level_uuid] = {
                     "handle": level_handle,
-                    "raw_data": raw_level_data
+                    "spawn_info": {
+                        "chest": chest_spawn_info,
+                        "item": item_spawn_info,
+                        "enemy": enemy_spawn_info
+                    },
+                    #"raw_data": raw_level_data
                 }
+
     print("exporting...")
     with open(OUT_PATH, "w") as f:
         f.write(json.dumps({
             "quests": quest_definition_by_uuid,
             "dungeons": dungeon_settings_by_uuid
-        }))
+        }, indent="\t"))
