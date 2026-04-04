@@ -6,3 +6,6 @@ tmp/
 keys.keystore
 patched.apk*
 source-package.apk
+log.txt
+parsed.json
+test.json
