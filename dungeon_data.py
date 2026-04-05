@@ -14,16 +14,24 @@ def generate_dungeon_data(quest_uuid: str, parsed_info: dict) -> dict:
                 "lootTableLoot": {
                     # this seems more complicated... Will this not crash?
                     #TODO: tests show this will indeed do an infinite loop
+                    # even enemy generated data appears to be accepted when empty apparently.
                 }
             })
             enemy_generated_data[enemy_group_uuid] = local_enemy_list
 
     item_generated_data = {}
     for item_uuid, item_data in dungeon_settings["spawn_info"]["item"].items():
+        assert len(item_data["apparition_settings"]) == 1 #TODO: only some event map have multiple entries (EQ04, 05, 06, 09 and 10)
+        interactable_uuid = item_data["apparition_settings"][0]["interactable_uuid"]
+        loot_table_definition = parsed_info["interactables"][interactable_uuid]["loot_table"]
+        # sometimes, some spawn info with no id present still appear. For example, 08736750-828c-4631-b99c-d7d490903233 is fairly common
+        loot_table_loot = {}
+        for loot_table_entry_uuid, loot_table_entry in loot_table_definition.items():
+            loot_table_loot[loot_table_entry_uuid] = {}
         item_generated_data[item_uuid] = {
-            "lootTableLoot": {
-                # maybe more complicated too. See same entry in enemy
-            }
+            # missing item loot table entry seems to be and accepted
+            # even entirely missing item definition...
+            "lootTableLoot": loot_table_loot
         }
 
     chest_generated_data = {}
@@ -36,6 +44,7 @@ def generate_dungeon_data(quest_uuid: str, parsed_info: dict) -> dict:
 
     return {
         "questId": quest_uuid,
+        # all the generated data may also just take a {}
         "enemyGeneratedData": enemy_generated_data,
         "itemGeneratedData": item_generated_data,
         "chestGeneratedData": chest_generated_data,

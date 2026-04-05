@@ -4,6 +4,7 @@ import os
 import json
 import yaml
 from utils.resolve_refs import resolve_refs
+import parse_util
 
 OUT_PATH = "./parsed.json"
 SOURCE_PATH = "/home/marius/blades/decompunityapk/ExportedProject"
@@ -161,7 +162,8 @@ if __name__ == "__main__":
                 item_spawn_info = {}
                 for item in raw_level_data["MonoBehaviour"]["_settings"]["_spawnSettings"]["_spawnGroupsItem"]:
                     item_spawn_info[item["_uid"]["_id"]] = {
-                        "name": item["_name"]
+                        "name": item["_name"],
+                        "apparition_settings": parse_util.parse_apparition_settings(item["_apparitionSettings"])
                     }
                 enemy_spawn_info = {}
                 for enemy in raw_level_data["MonoBehaviour"]["_settings"]["_spawnSettings"]["_spawnGroupsEnemy"]:
