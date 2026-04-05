@@ -19,3 +19,6 @@ for file in os.listdir(BASE_PATH):
                     if url.hostname == "blades.bgs.services" and url.path.endswith("accept"):
                         request: Dict[str, Any] = json.loads(flow.response.content.decode("utf-8"))
                         assert(request["quest"]["type"] == "NORMAL")
+                        assert(request["quest"]["questId"] == request["quest"]["gldQuestId"])
+                        if "dungeonGeneratedData" in request:
+                            assert(request["dungeonGeneratedData"]["questId"] == request["quest"]["questId"])

@@ -9,6 +9,8 @@ OUT_PATH = "./parsed.json"
 SOURCE_PATH = "/home/marius/blades/decompunityapk/ExportedProject"
 QUESTDATA_GUID = "5cc072dcf7a2ad3459c439adc756d484"
 LEVELDATA_PATH = "Assets/export/gameplaymetadata/LevelData.asset"
+INTERACTABLE_ITEM_PATH = "Assets/MonoBehaviour/InteractableItemData.asset"
+
 
 # from gpt-oss:20b
 def find_all_case_insensitive(
@@ -96,6 +98,22 @@ if __name__ == "__main__":
     assets = UnityAssets(SOURCE_PATH)
     to_export = {}
 
+    print("loading interactable items")
+    interactable_definition_by_uuid = {}
+    with open(os.path.join(SOURCE_PATH, INTERACTABLE_ITEM_PATH), "r") as f_interactables:
+        interactable_data = yaml.safe_load(f_interactables.read())
+        for interactable_list_entry in interactable_data["MonoBehaviour"]["_keyItemDataList"]:
+            interactable_uuid = interactable_list_entry["Key"]
+            interactable_guid = interactable_list_entry["ItemData"]["guid"]
+            with open(assets.guid_to_info[interactable_guid].path, "r") as f_this_interactable:
+                this_interactable_data = yaml.safe_load(f_this_interactable.read())
+                loot_table = {}
+                for loot_entry in this_interactable_data["MonoBehaviour"]["_lootTableList"]:
+                    loot_table[loot_entry["_lootTableId"]["_uid"]["_id"]] = {}
+                interactable_definition_by_uuid[interactable_uuid] = {
+                    "loot_table": loot_table
+                }
+
     print("loading quest data id mapping")
     quest_definition_uuid_to_guid = {}
     with open(assets.guid_to_info[QUESTDATA_GUID].path, "r") as f_leveldata:
@@ -120,6 +138,7 @@ if __name__ == "__main__":
             quest_dungeon_info = {
                 "objectives" : quest_objectives,
                 "version": quest_definition_data["_dungeonQuest"]["_questVersion"],
+                "dungeon_uuid": quest_definition_data["_dungeonQuest"]["DungeonSettingsPointer"]["_uid"]["_id"]
             }
         quest_definition_by_uuid[quest_uuid] = {
             "dungeon_info": quest_dungeon_info,
@@ -155,7 +174,7 @@ if __name__ == "__main__":
                     "spawn_info": {
                         "chest": chest_spawn_info,
                         "item": item_spawn_info,
-                        "enemy": enemy_spawn_info
+                        "enemySpawnGroups": enemy_spawn_info
                     },
                     #"raw_data": raw_level_data
                 }
@@ -164,5 +183,6 @@ if __name__ == "__main__":
     with open(OUT_PATH, "w") as f:
         f.write(json.dumps({
             "quests": quest_definition_by_uuid,
-            "dungeons": dungeon_settings_by_uuid
+            "dungeons": dungeon_settings_by_uuid,
+            "interactables": interactable_definition_by_uuid
         }, indent="\t"))

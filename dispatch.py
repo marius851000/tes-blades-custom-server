@@ -3,8 +3,12 @@ import os
 from typing import Dict, Optional, Any
 import json
 import time
+import dungeon_data
 
 BASE_DATA_FOLDER = "./data"
+with open("./parsed.json") as f:
+    PARSED_INFO: dict = json.loads(f.read())
+
 
 class Response:
     def __init__(self, body: bytes, headers: Dict[str, str], status: int):
@@ -32,6 +36,10 @@ class MainSession:
                 with open("./default_town.json", "r") as f:
                     default_town = json.loads(f.read())
                     result["town"] = default_town
+            if "quests" not in result:
+                result["quests"] = []
+            if "dungeonGeneratedDataList" not in result:
+                result["dungeonGeneratedDataList"] = []
             return result
         except FileNotFoundError:
             return {
@@ -270,7 +278,10 @@ class MainSession:
                 with open("./initial_quests.json", "r") as f:
                     initial_quests = json.loads(f.read())
                     result = initial_quests
-                result["character"] = self.read_character_file()["character"]
+                character_info = self.read_character_file()
+                result["character"] = character_info["character"]
+                result["quests"] = character_info["quests"]
+                result["dungeonGeneratedDataList"] = character_info["dungeonGeneratedDataList"]
                 return Response(json.dumps(result).encode("utf-8"), {}, 200)
             elif char_path == "globalshops/current":
                 return Response(json.dumps({}).encode("utf-8"), {}, 200)
@@ -295,6 +306,43 @@ class MainSession:
                 return Response(json.dumps({
                     "announcements": []
                 }).encode("utf-8"), {}, 200)
+            elif char_path is not None and char_path.startswith("quests/"):
+                quest_path = char_path[44:]
+                quest_uuid = char_path[7:43]
+                if quest_path == "accept":
+                    #assert r.command == "POST"
+                    character_info = self.read_character_file()
+                    for quest in character_info["quests"]:
+                        if quest["questId"] == quest_uuid:
+                            return Response(b"quest already accepted", {}, 409)
+                    dungeon_generated_data = dungeon_data.generate_dungeon_data(quest_uuid, PARSED_INFO)
+                    quest_info = dungeon_data.generate_quest_info(quest_uuid, PARSED_INFO)
+                    character_info["quests"].append(quest_info) #TODO: index by quest?
+                    character_info["dungeonGeneratedDataList"].append(dungeon_generated_data)
+                    self.write_character_file(character_info)
+                    return Response(json.dumps({
+                        "quests": quest_info,
+                        "dungeonGeneratedDataList": dungeon_generated_data
+                    }).encode("utf-8"), {}, 200)
+                elif quest_path == "dungeons/current/enter":
+                    assert r.command == "POST"
+                    client_info = json.loads(r.body.decode("utf-8")) # ty: ignore[unresolved-attribute]
+                    character_info = self.read_character_file()
+                    dungeon_status = {
+                        "dungeonSettingsIds": [
+                            # a list imply being able to handle multiple entries
+                            PARSED_INFO["quests"][quest_uuid]["dungeon_info"]["dungeon_uuid"]
+                        ],
+                        "reviveCount": 0,
+                        "level": 1,
+                        "seed": 12345678,
+                        "currentState": client_info["currentState"],
+                        "algorithmVersion": 1,
+                        "version": 1
+                    }
+                    character_info["dungeonStatus"] = dungeon_status
+                    self.write_character_file(character_info)
+                    return Response(json.dumps({"dungeonStatus": dungeon_status}).encode("utf-8"), {}, 200)
         elif domain.endswith(".api.swrve.com"):
             # just ignore them. Some telemetry stuff. Does sometimes return error callback thought.
             return Response(bytes([]), {}, 200)
