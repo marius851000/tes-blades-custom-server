@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import Dict, List
 import os
 import json
+import re
 import yaml
 from utils.resolve_refs import resolve_refs
 import parse_util
@@ -11,6 +12,7 @@ SOURCE_PATH = "/home/marius/blades/decompunityapk/ExportedProject"
 QUESTDATA_GUID = "5cc072dcf7a2ad3459c439adc756d484"
 LEVELDATA_PATH = "Assets/export/gameplaymetadata/LevelData.asset"
 INTERACTABLE_ITEM_PATH = "Assets/MonoBehaviour/InteractableItemData.asset"
+COMMON_PATH = "Assets/BGS/Scenes/common.unity"
 
 
 # from gpt-oss:20b
@@ -88,16 +90,37 @@ class Analyzer:
         pass
 
 
-def unity_tag_constructor(loader, tag_suffix, node):
+def unity_tag_constructor(loader, node):
     return loader.construct_mapping(node)
 
-yaml.add_multi_constructor("tag:unity3d.com,2011:", unity_tag_constructor)
-yaml.add_multi_constructor("tag:unity3d.com,2011:", unity_tag_constructor, Loader=yaml.SafeLoader)
+yaml.SafeLoader.add_constructor(None, unity_tag_constructor)
 
 if __name__ == "__main__":
     print("loading assets")
     assets = UnityAssets(SOURCE_PATH)
     to_export = {}
+    items_template = {}
+    with open(os.path.join(SOURCE_PATH, COMMON_PATH), "r") as f_common:
+        content = f_common.read()
+        # Remove Unity specific tags (!u! followed by numbers) before parsing. Needed for some reason.
+        cleaned_content = re.sub(r'!u!\d+', '', content)
+        for yaml_sub_file in yaml.safe_load_all(cleaned_content):
+            if "MonoBehaviour" in yaml_sub_file and "_itemTemplateLists" in yaml_sub_file["MonoBehaviour"]:
+                print("loading inventory items")
+                for item_template_list in yaml_sub_file["MonoBehaviour"]["_itemTemplateLists"]:
+                    item_template_list_guid = item_template_list["guid"]
+                    with open(assets.guid_to_info[item_template_list_guid].path, "r") as f_item_template_list:
+                        item_template_list_data = yaml.safe_load(f_item_template_list.read())
+                        for item_template_source in item_template_list_data["MonoBehaviour"]["_templateList"]:
+                            items_template[item_template_source["_uid"]["_id"]] = {
+                                "name": item_template_source["_name"]["_key"],
+                                "type": item_template_source["_type"]
+                            }
+
+    assert items_template != {}
+
+
+    print("loading item template")
 
     print("loading interactable items")
     interactable_definition_by_uuid = {}
@@ -119,8 +142,8 @@ if __name__ == "__main__":
     quest_definition_uuid_to_guid = {}
     with open(assets.guid_to_info[QUESTDATA_GUID].path, "r") as f_leveldata:
         quest_data = yaml.safe_load(f_leveldata.read())
-        for entry in quest_data["MonoBehaviour"]["_keyQuestList"]:
-            quest_definition_uuid_to_guid[entry["Key"]] = entry["QuestValue"]["guid"]
+        for yaml_sub_file in quest_data["MonoBehaviour"]["_keyQuestList"]:
+            quest_definition_uuid_to_guid[yaml_sub_file["Key"]] = yaml_sub_file["QuestValue"]["guid"]
 
     print("loading quest definition data themself")
     quest_definition_by_uuid = {}
@@ -134,7 +157,8 @@ if __name__ == "__main__":
             for objective in quest_definition_data["_dungeonQuest"]["_objectives"]:
                 quest_objectives[objective["_uid"]["_id"]] = {
                     "description": objective["Description"]["_key"],
-                    "quota": objective["_quota"]
+                    "quota": objective["_quota"],
+                    "rewards": parse_util.parse_reward_givers(objective["RewardGivers"])
                 }
             quest_dungeon_info = {
                 "objectives" : quest_objectives,
@@ -186,5 +210,6 @@ if __name__ == "__main__":
         f.write(json.dumps({
             "quests": quest_definition_by_uuid,
             "dungeons": dungeon_settings_by_uuid,
-            "interactables": interactable_definition_by_uuid
+            "interactables": interactable_definition_by_uuid,
+            "items_template": items_template
         }, indent="\t"))
